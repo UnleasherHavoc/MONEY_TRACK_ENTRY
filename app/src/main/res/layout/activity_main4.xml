@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.application.account.Main4Activity"
+    android:background="@drawable/backgroung">
+
+
+    <TextView
+        android:text=" ENTER CURRENT DETAILS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="41dp"
+        android:id="@+id/textView8"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:textSize="22sp"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:text="USERID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="41dp"
+        android:id="@+id/textView9"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="27dp"
+        android:id="@+id/editText"
+        android:textColor="@android:color/holo_red_dark"
+        android:background="@android:color/background_light"
+        android:imeOptions="actionNext"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_alignBaseline="@+id/textView10"
+        android:layout_alignBottom="@+id/textView10"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="@android:color/holo_red_light"
+        android:background="@android:color/background_light"
+        android:imeOptions="actionDone"/>
+
+    <Button
+        android:text="ENTER"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp"
+        android:id="@+id/button2"
+        android:onClick="onCheck"
+        android:backgroundTint="@android:color/holo_blue_light" />
+
+    <TextView
+        android:text="PASSWORD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:id="@+id/textView10"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

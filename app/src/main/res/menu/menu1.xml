@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.application.account.Main3Activity"
+
+    <group android:checkableBehavior="single"
+        android:orderInCategory="104">
+
+        <item
+            android:title="VIEW DATABASE"
+            android:orderInCategory="105"
+            android:id="@+id/menu_setting1"
+            />
+        <item
+            android:title="VIEW TOTAL"
+            android:orderInCategory="1015"
+            android:id="@+id/menu_total"
+            />
+
+
+    </group>
+</menu>

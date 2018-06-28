@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.application.account.MainActivity">
+
+    <group android:checkableBehavior="single"
+        android:orderInCategory="104">
+
+        <item
+            android:title="SETTING"
+            android:orderInCategory="105"
+            android:id="@+id/menu_setting"
+            />
+
+
+    </group>
+
+</menu>

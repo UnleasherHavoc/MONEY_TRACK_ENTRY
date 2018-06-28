@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MY MONEY</string>
+    <string name="title_activity_login">Sign in</string>
+
+
+    <string-array name="Names">
+        <item>CLIENT 1</item>
+        <item>CLIENT 2</item>
+        <item>CLIENT 3</item>
+        <item>CLIENT 4</item>
+        <item>CLIENT 5</item>
+
+
+    </string-array>
+    <string name="title_activity_total">TotalActivity</string>
+    <string name="title_activity_custom_cursor__adapter">Custom_cursor_Adapter</string>
+    <string name="title_activity_view_databasebyname">ViewDatabasebyname</string>
+
+
+</resources>
